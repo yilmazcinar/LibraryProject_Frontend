@@ -1,0 +1,56 @@
+/* Global Styles */
+:root {
+  /* Library Theme Colors */
+  --library-primary: #654321; /* Dark Brown */
+  --library-secondary: #8b4513; /* Saddle Brown */
+  --library-success: #228b22; /* Forest Green */
+  --library-info: #4682b4; /* Steel Blue */
+  --library-warning: #daa520; /* Goldenrod */
+  --library-danger: #b22222; /* Fire Brick */
+  --library-light: #f5f5dc; /* Beige */
+  --library-dark: #2f1b14; /* Dark Brown */
+
+  /* Override Bootstrap variables */
+  --bs-primary: var(--library-primary);
+  --bs-secondary: var(--library-secondary);
+  --bs-success: var(--library-success);
+  --bs-info: var(--library-info);
+  --bs-warning: var(--library-warning);
+  --bs-danger: var(--library-danger);
+  --bs-light: var(--library-light);
+  --bs-dark: var(--library-dark);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(245, 245, 220, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8b4513;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #654321;
+}
