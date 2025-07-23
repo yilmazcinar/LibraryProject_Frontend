@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
 import "./App.css";
 import libraryBackground from "./assets/library-background.jpg";
 

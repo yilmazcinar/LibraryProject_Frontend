@@ -241,3 +241,326 @@ footer {
   color: #654321;
   font-weight: bold;
 }
+
+/* Hero Carousel Styles */
+.hero-carousel-container {
+  width: 100%;
+  height: 500px; /* Sabit yükseklik */
+  overflow: hidden;
+  border-radius: 15px; /* Jumbotron gibi yuvarlak köşeler */
+  margin-bottom: 2rem; /* Jumbotron gibi margin */
+  border: 1px solid rgba(101, 67, 33, 0.3); /* Jumbotron gibi border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.hero-carousel {
+  height: 100%;
+}
+
+.carousel-slide {
+  height: 500px; /* Tüm slide'lar için aynı yükseklik */
+  position: relative;
+}
+
+.carousel-image-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(101, 67, 33, 0.7),
+    rgba(139, 111, 71, 0.5)
+  );
+}
+
+.carousel-caption-custom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+.carousel-content {
+  max-width: 600px;
+}
+
+.carousel-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #daa520;
+}
+
+.carousel-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.carousel-buttons .btn {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.carousel-buttons .btn-primary {
+  background: linear-gradient(45deg, #654321, #8b6f47);
+  border-color: #654321;
+  color: white;
+}
+
+.carousel-buttons .btn-primary:hover {
+  background: linear-gradient(45deg, #8b6f47, #654321);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(101, 67, 33, 0.3);
+}
+
+.carousel-buttons .btn-outline-light {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.8);
+  color: white;
+}
+
+.carousel-buttons .btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Carousel Grid Styles */
+.carousel-grid-container {
+  height: 500px; /* Ana slide ile aynı yükseklik */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-grid-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(101, 67, 33, 0.6),
+    rgba(139, 111, 71, 0.4)
+  );
+  z-index: 1;
+}
+
+.carousel-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.carousel-grid-item {
+  flex: 0 0 auto;
+  width: 320px;
+  height: 420px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.carousel-grid-item:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Yazar resimleri için özel boyutlar (2:3 oran) */
+.carousel-grid-item-authors {
+  width: 280px;
+  height: 420px;
+}
+
+/* Kitap kapaklarında için özel boyutlar (2:3 oran) */
+.carousel-grid-item-books {
+  width: 280px;
+  height: 420px;
+}
+
+.carousel-grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(101, 67, 33, 0.4),
+    rgba(139, 111, 71, 0.3)
+  );
+  opacity: 1; /* Her zaman görünür */
+  transition: opacity 0.3s ease;
+}
+
+.carousel-grid-item:hover .carousel-grid-overlay {
+  opacity: 0.8; /* Hover'da daha koyu */
+}
+
+/* Responsive Carousel */
+@media (max-width: 768px) {
+  .hero-carousel-container,
+  .carousel-slide,
+  .carousel-grid-container {
+    height: 400px; /* Mobilde daha küçük yükseklik */
+  }
+
+  .carousel-title {
+    font-size: 2.5rem;
+  }
+
+  .carousel-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .carousel-description {
+    font-size: 1rem;
+  }
+
+  .carousel-grid {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+  }
+
+  .carousel-grid-item {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 260px;
+  }
+
+  .carousel-grid-item-authors {
+    width: 170px;
+    height: 255px;
+  }
+
+  .carousel-grid-item-books {
+    width: 170px;
+    height: 255px;
+  }
+
+  .carousel-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .carousel-buttons .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-carousel-container,
+  .carousel-slide,
+  .carousel-grid-container {
+    height: 350px; /* Çok küçük ekranlarda daha da küçük */
+  }
+
+  .carousel-title {
+    font-size: 2rem;
+  }
+
+  .carousel-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .carousel-description {
+    font-size: 0.9rem;
+  }
+
+  .carousel-grid-item {
+    width: 130px;
+    height: 180px;
+  }
+
+  .carousel-grid-item-authors {
+    width: 110px;
+    height: 170px;
+  }
+
+  .carousel-grid-item-books {
+    width: 110px;
+    height: 170px;
+  }
+
+  .carousel-buttons .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
