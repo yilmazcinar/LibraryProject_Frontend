@@ -4,40 +4,46 @@ Modern ve kullanıcı dostu bir kütüphane yönetim sistemi frontend uygulamas�
 
 ## 🌐 Canlı Demo
 
-**🚀 [Canlı Uygulamayı Görüntüle](BURAYA_NETLIFY_LINK_GELECEK)**
+**🚀 [Canlı Uygulamayı Görüntüle](https://bookhole.netlify.app/)**
 
 > Backend API: [Library Management API](https://libraryproject-backend.onrender.com/api/v1)
 
 ## 📋 Özellikler
 
 ### 📖 Kitap Yönetimi
+
 - ✅ Kitap ekleme, düzenleme ve silme
 - 🔍 Kitap arama ve filtreleme
 - 📊 Kitap detay görüntüleme
 - 📚 Kategori bazlı organizasyon
 
 ### 👨‍💼 Yazar Yönetimi
+
 - ✅ Yazar profili oluşturma ve düzenleme
 - 📝 Yazar bilgileri ve eserleri
 - 🔗 Yazar-kitap ilişkilendirme
 
 ### 🏢 Yayınevi Yönetimi
+
 - ✅ Yayınevi bilgilerini yönetme
 - 📊 Yayınevi istatistikleri
 - 🔗 Yayınevi-kitap ilişkilendirme
 
 ### 📂 Kategori Yönetimi
+
 - ✅ Kitap kategorilerini organize etme
 - 🏷️ Kategori bazlı filtreleme
 - 📈 Kategori istatistikleri
 
 ### 📋 Ödünç Alma Sistemi
+
 - ✅ Kitap ödünç alma/verme işlemleri
 - ⏰ Teslim tarihi takibi
 - 📊 Ödünç alma geçmişi
 - 🚨 Gecikme bildirimleri
 
 ### 🎨 Kullanıcı Deneyimi
+
 - 📱 Responsive tasarım (mobil uyumlu)
 - 🌟 Modern ve sezgisel arayüz
 - 🎯 Kolay navigasyon
@@ -46,6 +52,7 @@ Modern ve kullanıcı dostu bir kütüphane yönetim sistemi frontend uygulamas�
 ## 🛠️ Teknolojiler
 
 ### Frontend
+
 - **React 19.1.0** - Modern UI geliştirme
 - **Vite 7.0.4** - Hızlı build ve development
 - **React Router 7.7.0** - SPA routing
@@ -54,6 +61,7 @@ Modern ve kullanıcı dostu bir kütüphane yönetim sistemi frontend uygulamas�
 - **Axios** - HTTP client
 
 ### Styling
+
 - **Custom CSS** - Özel tema tasarımı
 - **Bootstrap Components** - Hazır UI bileşenleri
 - **Responsive Design** - Mobil uyumlu tasarım
@@ -61,23 +69,27 @@ Modern ve kullanıcı dostu bir kütüphane yönetim sistemi frontend uygulamas�
 ## 🚀 Kurulum ve Çalıştırma
 
 ### Gereksinimler
+
 - Node.js (v18 veya üzeri)
 - npm veya yarn
 
 ### Local Geliştirme
 
 1. **Repository'yi klonlayın:**
+
 ```bash
 git clone https://github.com/yilmazcinar/LibraryProject_Frontend.git
 cd LibraryProject_Frontend
 ```
 
 2. **Bağımlılıkları yükleyin:**
+
 ```bash
 npm install
 ```
 
 3. **Development server'ı başlatın:**
+
 ```bash
 npm run dev
 ```
@@ -144,6 +156,7 @@ VITE_API_BASE_URL=https://libraryproject-backend.onrender.com/api/v1
 ## 📱 Responsive Tasarım
 
 Uygulama tüm cihazlarda mükemmel çalışır:
+
 - 📱 **Mobil:** 320px - 768px
 - 📱 **Tablet:** 768px - 1024px
 - 💻 **Desktop:** 1024px+
@@ -189,11 +202,13 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosy
 ## 👨‍💻 Geliştirici
 
 **Çınar Yılmaz**
+
 - GitHub: [@yilmazcinar](https://github.com/yilmazcinar)
 
 ## 📞 İletişim
 
 Proje hakkında sorularınız için:
+
 - GitHub Issues kullanın
 - Proje sayfasındaki İletişim bölümünden ulaşın
 
