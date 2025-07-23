@@ -78,7 +78,7 @@ function HomePage() {
     <div className="container mb-5 pb-4">
       {/* Hero Section */}
       <div className="jumbotron">
-        <h1 className="display-4">Kütüphane Yönetim Sistemi</h1>
+        <h1 className="display-4">BookHole</h1>
         <p className="lead">
           Kitapları, yazarları ve ödünç alma işlemlerini kolayca yönetin.
         </p>

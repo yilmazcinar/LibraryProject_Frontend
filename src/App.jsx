@@ -41,7 +41,7 @@ function App() {
           <div className="container">
             <Link className="navbar-brand" to="/">
               <i className="bi bi-book me-2"></i>
-              Kütüphane Yönetim Sistemi
+              BookHole
             </Link>
 
             <button
@@ -152,7 +152,7 @@ function App() {
             {/* Footer Bottom */}
             <div className="text-center">
               <p className="mb-0 text-white">
-                © 2025 Kütüphane Yönetim Sistemi. Tüm hakları saklıdır.
+                © 2025 BookHole. Tüm hakları saklıdır.
               </p>
             </div>
           </div>
